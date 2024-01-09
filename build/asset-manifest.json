@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2592d9d.css",
+    "main.js": "/static/js/main.0202b7d9.js",
+    "static/media/ebrima.ttf": "/static/media/ebrima.d27ba8105bc0397ee9ac.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/card.png": "/static/media/card.7ac0a61bd9ecfecdb741.png",
+    "static/media/expired membership.png": "/static/media/expired membership.ac34c0045e22e73741fd.png",
+    "static/media/membershipbox background.png": "/static/media/membershipbox background.83161d7a28161af0ee2c.png",
+    "static/media/successfull.png": "/static/media/successfull.ff435cf65bcfc4231077.png",
+    "static/media/inactive membership.png": "/static/media/inactive membership.7e22644935e30c38e4c6.png",
+    "static/media/oops.png": "/static/media/oops.61e549f2df1c344d968b.png",
+    "static/media/FAIB LOGO.png": "/static/media/FAIB LOGO.38c7e165be62bb39bda8.png",
+    "static/media/master.png": "/static/media/master.f958cc6d51175b822974.png",
+    "static/media/membership box.png": "/static/media/membership box.310aef4bcc55fed7285f.png",
+    "static/media/new membership box.png": "/static/media/new membership box.187fbc253876f8806524.png",
+    "static/media/direct debit.png": "/static/media/direct debit.eaf02e3136062554fe20.png",
+    "static/media/visa card.png": "/static/media/visa card.81becffb8efd9d6fa89e.png",
+    "static/media/paypal.png": "/static/media/paypal.1235bcd0f1b4998b7af6.png",
+    "static/media/logoicon.png": "/static/media/logoicon.c7c08aa54ca39b532043.png",
+    "static/media/FAIBLogin.jpeg": "/static/media/FAIBLogin.cf149f43d9d2e741f6b5.jpeg",
+    "index.html": "/index.html",
+    "main.c2592d9d.css.map": "/static/css/main.c2592d9d.css.map",
+    "main.0202b7d9.js.map": "/static/js/main.0202b7d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2592d9d.css",
+    "static/js/main.0202b7d9.js"
+  ]
+}
