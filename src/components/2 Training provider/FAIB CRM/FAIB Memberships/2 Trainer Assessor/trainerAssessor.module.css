@@ -1,0 +1,145 @@
+.contact_form {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 40px;
+  }
+  .contact_form h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .contact_form_box {
+    width: 85% !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  .continue_btn {
+    background-color: #3c3458 !important;
+    text-transform: inherit !important;
+    font-size: 20px !important;
+    color: white !important;
+    width: 280px;
+    height: 50px;
+    margin: 0 2rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .form_heading {
+    border-bottom: 1px solid #b7b7b7;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600 !important;
+  }
+  .upload_file {
+    background-color: #3c3458 !important;
+    text-transform: inherit !important;
+    font-size: 15px !important;
+    color: white !important;
+    width: 180px;
+    height: 45px;
+    margin-right: 6px !important;
+    border-radius: 50px !important;
+  }
+  .contact_form_link{
+    color: #2C70B7; 
+    font-size: 10px;
+  }
+  .uploadbtn{
+    font-size: 16px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 2px;
+    border: 1px solid #000;
+    width: 100%;
+    outline: none;
+  }
+  ::-webkit-file-upload-button{
+    color:white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: #3c3458;
+  }
+  
+  
+  .full-width input {
+    padding-left: 10px;
+  }
+  
+  .full-width input:focus {
+    outline: none;
+  }
+  
+  .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #3c3458 !important;
+  }
+  
+  .css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+    color: #3c3458 !important;
+  }
+ 
+  
+  .form_input {
+    border: 1px solid #928d95 !important;
+    background-color: transparent !important;
+    height: 43px;
+    width: 290px;
+    border-radius: 5px;
+    margin-top: -8px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+  }
+  .form_input_full_width {
+    width: 100%;
+    border: 1px solid #928d95 !important;
+    background-color: transparent !important;
+    height: 43px;
+    border-radius: 5px;
+    margin-top: -8px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+  }
+  .form_error{
+    color:red;  
+  }
+  .contact_form_link{
+    color: #2C70B7; 
+    font-size: 10px;
+  }
+
+  @media (max-width:700px){
+    .contact_form h1 {
+        font-size: 18px;
+      }
+      .form_input_full_width {
+        width: 100%;
+    }
+    .form_input {
+        width: 100%;
+    }
+    .continue_btn {
+        font-size: 20px !important;
+        color: white !important;
+        width: 100%;
+        height: 50px;
+      }
+      .contact_form_link{
+        font-size: 6px;
+      }
+      .form_heading {
+       font-size: 0.43rem !important;
+      }
+  }

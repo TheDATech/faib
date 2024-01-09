@@ -1,0 +1,69 @@
+.orderHisotryContainerbox{
+  width:100%;
+}
+.reNew,
+.preview {
+  width: 150px;
+  height: 40px;
+  background-color: #1c4e4a;
+  color: white;
+  font-size: 15px !important;
+  font-family: var(--Fontfamily);
+  text-transform: capitalize;
+}
+
+.reNew:hover {
+  background-color: #1c4e4a;
+}
+
+.preview {
+  margin-bottom: 20px !important;
+}
+
+.reNew {
+  background: green !important;
+  color: white !important;
+  width: 155px !important;
+}
+
+.reNeww {
+  background: red !important;
+  color: white !important;
+  width: 155px !important;
+}
+
+.vuew {
+  width: 155px !important;
+  background: #8cbae8 !important;
+  color: white !important;
+  border-color: #8cbae8 !important;
+  margin-bottom: 5px !important;
+}
+
+.dunlod {
+  width: 155px !important;
+  background: #3e3459 !important;
+  color: white !important;
+  border-color: #3e3459 !important;
+}
+.alldwon {
+  float: right !important;
+  border-color: #3e3459 !important;
+  color: #3e3459 !important;
+}
+.sidesel {
+  width: 16% !important;
+}
+.tableContainer{
+  margin: 1rem 0rem;
+}
+
+@media (max-width: 600px){
+    .tableContainer{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .orderHisotryContainerbox{
+      width:100%;
+    }
+}

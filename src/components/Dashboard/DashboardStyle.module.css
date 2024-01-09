@@ -1,0 +1,196 @@
+:root {
+  --Fontfamily: "MontserratMedium";
+}
+
+.dashboard_container h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.horizontal_line {
+  margin-top: 20px !important;
+  border-width: 1px !important;
+  margin-bottom: 40px !important;
+}
+
+.smalgray {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.dateaprrove p {
+  font-size: 16px;
+  line-height: 33px;
+  font-weight: 300;
+}
+
+.dashboard_container p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--Fontfamily);
+}
+
+.dashboard_container button {
+  font-family: var(--Fontfamily);
+  text-transform: capitalize !important;
+  font-size: 16px;
+}
+
+.dashboard_container button:hover {
+  background-color: #3e3459 !important;
+}
+
+/* Card */
+.card_container h1 {
+  font-size: 55px !important;
+  font-family: var(--Fontfamily);
+  color: white;
+}
+
+.card_container p {
+  font-family: var(--Fontfamily);
+  color: white;
+}
+
+.heading_text {
+  text-align: center;
+  font-size: 30px !important;
+  color: #1c4e4a !important;
+  font-weight: bold !important;
+  font-family: "ebrima" !important;
+}
+
+.cancel_btn,
+.edit_btn,
+.trainer_btn,
+.renew_btn {
+  height: 40px;
+  width: fit-content !important;
+  font-size: 15px !important;
+  font-weight: lighter !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+  font-family: var(--Fontfamily) !important;
+}
+
+.cancel_btn {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background: #ff0001 !important;
+}
+
+.cancel_btn:hover {
+  background: #ff0001 !important;
+}
+
+.edit_btn {
+  background-color: transparent !important;
+  border-color: #3e3459 !important;
+  color: #3e3459 !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+.trainer_btn {
+  padding-left: 45px !important;
+  padding-right: 45px !important;
+  background-color: #1c4e4a !important;
+  color: white !important;
+  justify-content: center;
+}
+
+.trainer_btn:hover {
+  background-color: #1c4e4a !important;
+  color: white !important;
+}
+
+.renew_btn {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background-color: #3e3459 !important;
+}
+
+.renew_btn:hover {
+  background-color: #3e3459 !important;
+}
+.cardbox_btn_grid{
+  display:flex;
+  justify-content:space-evenly;
+  margin-top:30px;
+  margin-right: 5px;
+}
+.cardbox_image_green{
+  width:230px;
+  height:230px;
+}
+
+/* certificates */
+.certificates_box p {
+  font-size: 20px !important;
+  font-family: "MontserratMedium";
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+.certificates_box hr {
+  border-width: 1px !important;
+  margin-top: 10px;
+}
+
+.certificates_card_box .heading_text {
+  font-size: 25px !important;
+}
+
+.preview,
+.download,
+.reNew {
+  width: 200px;
+  height: 40px;
+  border-color: #1c4e4a;
+  color: #1c4e4a;
+  font-size: 15px !important;
+  font-family: var(--Fontfamily);
+  text-transform: capitalize;
+}
+
+.download {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  background-color: #3e3441 !important;
+  color: white;
+}
+
+.reNew {
+  background-color: #278a2a !important;
+  color: white;
+}
+
+.continue_btn {
+  background-color: #3e3459 !important;
+  color: white !important;
+  width: 220px !important;
+  height: 50px !important;
+  margin-top: 60px !important;
+  margin-bottom: 25px !important;
+}
+ @media (max-width:600px) {
+  .cardbox_btn_grid{
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+    align-items: center !important;
+    margin-bottom: 5px;
+  }
+  .cancel_btn,.edit_btn,.renew_btn{
+    width: 80% !important;
+    margin: auto !important;
+  }
+  .trainer_btn{
+    width: 100% !important;
+    margin: auto 20% !important;
+  }
+  .cardbox_image_green{
+    width:100%;
+    height:230px;
+  }
+ }

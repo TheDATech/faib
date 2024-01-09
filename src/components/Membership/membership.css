@@ -1,0 +1,19 @@
+.pgheading h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.pgheading h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 11px;
+    margin-top: 25px;
+}
+.pgheadinggg a {
+    cursor: pointer;
+    text-decoration: none;
+}
+#addbtnmembership:hover{
+    background-color: #3E3459;
+}

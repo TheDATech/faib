@@ -1,0 +1,157 @@
+.pgheadig {
+    text-align: left !important;
+}
+
+.pgheadig h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pgheadig h6 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    color: #3e3459;
+}
+
+.grid-allmembership{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+}
+.grid_allmembership_abcd{
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-top: 80px;
+    align-items: center;
+}
+@media (max-width:450px) and (min-width:300px){
+.grid_allmembership_abcd{
+    margin-top: 10px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
+}
+
+.allmembership_card_container{
+    width: 280px;
+    text-align: center;
+}
+.allmembership_card{
+    border-radius: 25px;
+    border: 2px solid #3E3459;
+    position: relative;
+}
+.allmembership_card_div{
+    text-align: center;
+    padding: 0px;
+    border-radius: 25px; 
+}
+.allmembership_card_p{
+    color: white;
+    font-size: 30px;   
+}
+.allmembership_image{
+    width: 100%;
+    height: auto;
+}
+/*.bigImage{
+    width: 280px;
+    height: 385px;
+    background-image: url("../../../../public/Usersassests/memberships/newmembershipebox.png");
+    background-size: cover;
+}
+.overlay_bigimage{
+    margin:12px;
+    text-align: center;
+}
+.overlay_bigimage p{
+    color: white;
+    font-size: 2.5rem;
+    margin: 2.5rem;
+}
+.overlay_bigimage h5{
+    color: #3E3459;
+    font-size: 1rem;
+    margin: 5rem 2.5rem 2rem;
+}
+.bigImage:hover{
+    background-image: url("../../../../public/Usersassests/memberships/membershipbox.png");
+    background-size: cover;
+}*/
+.form .allmembership-form-input{
+    width: 260px !important;
+    height: 400px;
+    background-image: url("../../../assets/new\ membership\ box.png");
+    background-size: cover;
+}
+.form .allmembership-form-input input{
+    display: none;
+    text-align: center;
+}
+.form .allmembership-form-input label{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+.price{
+    color: white;
+    font-size: 2rem; 
+    margin: 2.5rem;
+    text-align: center;
+}
+.title{
+    color: #3E3459;
+    font-size: 1rem;
+    margin: 6rem 1rem 2rem;
+}
+.form .allmembership-form-input label .price1{
+ display: none;
+}
+.form .allmembership-form-input label .selectlable{
+    display: none;
+}
+.form .allmembership-form-input label:hover{
+    cursor: pointer;
+    width: 260px !important;
+    height: 400px;
+}
+.form .allmembership-form-input input:checked + label{
+    background-image: url("../../../assets/membership\ box.png");
+    background-size: cover;
+    width: 260px !important;
+    height: 400px;
+}
+.form .allmembership-form-input input:checked + label .price{
+ display: none;
+}
+.form .allmembership-form-input input:checked + label .price1{
+    color: white;
+    font-size: 2rem; 
+    margin: 2.5rem;
+    text-align: center;
+    display:block;
+}
+.form .allmembership-form-input input:checked + label .title{
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 4rem 1rem 2rem;
+}
+.form .allmembership-form-input input:checked + label .selectlable{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5rem 2rem 1rem;
+    display: block;
+}
+.form .allmembership-form-input input:checked + label .selectlable p{
+ font-size: 1rem;
+ font-weight: 400;
+ color: #fff;
+ margin-top: 10px;
+}
+.form .allmembership-form-input input:checked + label #subtitle{
+    display: none;
+}

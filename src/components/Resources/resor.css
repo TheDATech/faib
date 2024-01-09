@@ -1,0 +1,22 @@
+.powrimgas {
+    display: flex !important;
+}
+
+.porclick {
+    margin-left: 40px !important;
+    margin-top: 13px !important;
+    background: #235252 !important;
+    color: white !important;
+}
+
+.porwpics {
+    margin-right: -115px !important;
+}
+
+.sidesel {
+    width: 16% !important;
+}
+.pgnition {
+    text-align: center !important;
+    margin-top: 35px !important;
+}

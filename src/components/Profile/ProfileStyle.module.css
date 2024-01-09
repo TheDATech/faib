@@ -1,0 +1,88 @@
+.profile_cardbox_input{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profile_cardbox_OutlinedInput{
+  width: 330px;
+  height: 40px;
+  background: #E5E5E5;
+  margin:10px 0px;
+  padding: 16.5px 23px !important;
+}
+.change_password {
+  width: 180px !important;
+  background-color: #3e3441 !important;
+  margin-right: 30px !important;
+  box-shadow: none !important;
+}
+
+.change_password:hover {
+  background-color: #3e3441 !important;
+}
+
+.edit_btn {
+  width: 180px !important;
+  border-color: #3e3441 !important;
+  border-width: 2px !important;
+  color: #3e3441 !important;
+  font-size: 15px !important;
+  box-shadow: none !important;
+}
+
+.edit_btn:hover {
+  border-width: 2px !important;
+  color: #3e3441 !important;
+}
+
+/*  */
+.editImage {
+  position: absolute !important;
+  top: 20px !important;
+  right: 8px;
+}
+
+.save_btn {
+  background-color: #3e3459 !important;
+  color: white !important;
+  width: 200px !important;
+  height: 40px !important;
+ }
+.save_btn_contain{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.profile_topbox_card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.update_password {
+  background-color: #3e3459 !important;
+  color: white !important;
+  width: 200px !important;
+  height: 40px !important;
+  margin-bottom: 20px;
+}
+.cardheight_profile{
+  width: 100%;
+  height: auto;
+}
+.errorp{
+  color:red;
+  font-size: 1rem;
+}
+@media (max-width:600px) {
+  .profile_cardbox_OutlinedInput{
+    width:100% !important;
+    height: 40px;
+    background: #E5E5E5;
+  }
+  .cardheight_profile{
+    width: 100%;
+    height: auto;
+  }
+}

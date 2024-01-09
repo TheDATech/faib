@@ -1,0 +1,159 @@
+.dashboard_container h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.horizontal_line {
+  margin-top: 20px !important;
+  border-width: 1px !important;
+  margin-bottom: 40px !important;
+}
+
+.dashboard_container p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3e3459;
+}
+
+.dashboard_container button {
+  text-transform: capitalize !important;
+  font-size: 16px;
+}
+
+.dashboard_container button:hover {
+  background-color: #3e3459 !important;
+}
+
+/* Card */
+.card_container h1 {
+  font-size: 55px !important;
+  color: white;
+}
+
+.card_container p {
+  color: white;
+}
+
+.heading_text {
+  text-align: center;
+  font-size: 30px !important;
+  color: #1c4e4a !important;
+  font-weight: bold !important;
+}
+
+.cancel_btn,
+.edit_btn,
+.trainer_btn,
+.renew_btn {
+  height: 40px;
+  width: fit-content !important;
+  font-size: 15px !important;
+  font-weight: lighter !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+
+.cancel_btn {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background: #ff0001 !important;
+  width: 22% !important;
+}
+
+.cancel_btn:hover {
+  background: #ff0001 !important;
+}
+
+.edit_btn {
+  background-color: transparent !important;
+  border-color: #3e3459 !important;
+  color: #3e3459 !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  width: 22% !important;
+}
+
+.trainer_btn {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  background-color: #1c4e4a !important;
+  color: white !important;
+  width: 22% !important;
+}
+
+.trainer_btn:hover {
+  background-color: #1c4e4a !important;
+  color: white !important;
+}
+
+.renew_btn {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background-color: #3e3459 !important;
+  width: 22% !important;
+}
+
+.renew_btn:hover {
+  background-color: #3e3459 !important;
+}
+
+/* certificates */
+.certificates_box p {
+  font-size: 20px !important;
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+.certificates_box hr {
+  border-width: 1px !important;
+  margin-top: 10px;
+}
+
+.heading_text {
+  font-size: 25px !important;
+  font-weight: 800px !important;
+}
+
+.preview,
+.download,
+.reNew {
+  width: 200px;
+  height: 40px;
+  border-color: #1c4e4a;
+  color: #1c4e4a;
+  font-size: 15px !important;
+  text-transform: capitalize;
+}
+
+.download {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  background-color: #3e3441 !important;
+  color: white;
+}
+
+.reNew {
+  background-color: #278a2a !important;
+  color: white;
+}
+.heading_size{
+  font-size: 16px;
+}
+/*  */
+.continue_btn {
+  background-color: #3e3459 !important;
+  color: white !important;
+  width: 220px !important;
+  height: 50px !important;
+  margin-top: 60px;
+}
+
+@media (max-width:600px){
+  .dashboard_container button {
+    text-transform: capitalize !important;
+    font-size: 9px;
+  }
+  .heading_size{
+    font-size: 12px !important;
+  }
+}

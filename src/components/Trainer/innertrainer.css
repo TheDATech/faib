@@ -1,0 +1,149 @@
+.domne {
+    width: 100% !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    background: #278a2a !important;
+}
+
+.hold {
+    width: 100% !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    background: gray !important;
+}
+
+.editicon {
+    color: blue !important;
+    font-size: 20px !important;
+    margin-top: 10px !important;
+}
+
+.addtrainclickarea {
+    text-align: center;
+}
+
+.addtrainclick {
+    background: #3e3459 !important;
+    border-color: #3e3459 !important;
+    color: white !important;
+    margin-top: 25px !important;
+    width: 40% !important;
+    height: 3rem;
+}
+
+.addtrainclick:hover {
+    background: #3e3459 !important;
+    border-color: #3e3459 !important;
+    color: white !important;
+    margin-top: 25px !important;
+    width: 40% !important;
+    height: 3rem;
+}
+
+.addtraindata label {
+    font-size: 14px;
+    margin-top: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.addtraindata input {
+    height: 3rem;
+    border-radius: 3px;
+    color: #3e3459;
+    font-size: 14px;
+    border: 2px solid #f1f1f1;
+}
+
+.lucyselect .ant-select-selector {
+    height: 40px !important;
+    border-radius: 3px !important;
+    color: #dbd7d7 !important;
+    border-color: #f1f1f1 !important;
+    font-size: 14px !important;
+    padding-top: 3px !important;
+}
+
+.lucyselect {
+    border-color: #f1f1f1 !important;
+}
+
+.pdmodalwidth {
+    width: 60% !important;
+}
+
+.tainmid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.oppsdata img {
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.oppsdata {
+    text-align: center;
+}
+
+.rety {
+    background: red !important;
+    border-color: red !important;
+    color: white !important;
+    margin-right: 10px !important;
+}
+.cardimgs_input{
+    width:4rem;
+    height: 4rem;
+}
+.cardimgs_input_container{
+    display: flex;
+    gap: 0.5rem;
+}
+.cardimgs_input label .cardimgs img {
+    width: 100%;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.cardimgs_input input{
+   display:none;
+}
+.cardimgs_input label{
+    display: block;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+.cardimgs_input label:hover{
+    cursor: pointer;
+    border: 1px solid #a49abd;
+}
+.cardimgs_input input:checked + label{
+    border: 1px solid #3e3459;
+}
+
+.amountdata {
+    background: #cfcfcf4a;
+    text-align: center;
+    padding: 16px;
+    margin: 16px 25px;
+    border-radius: 28px;
+    border: 2px solid #cfcfcf4a;
+}
+#amountdatacard{
+    width:100%;
+    margin:-80px;
+}
+.amountdata p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.amountdata span {
+    font-weight: 600;
+}
+
+.amountdata h6 {
+    font-size: 31px;
+    color: #3e3459e3;
+}
